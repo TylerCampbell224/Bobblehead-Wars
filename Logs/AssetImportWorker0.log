@@ -15,11 +15,11 @@ D:/St-Lawrence College/Semester 3/GAME312 - Game Engines 2 Advanced Scripting/La
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62680
+56538
 Successfully changed project path to: D:/St-Lawrence College/Semester 3/GAME312 - Game Engines 2 Advanced Scripting/Labs/Lab 1/Bobblehead Wars
 D:/St-Lawrence College/Semester 3/GAME312 - Game Engines 2 Advanced Scripting/Labs/Lab 1/Bobblehead Wars
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,38 +35,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003014 seconds.
+Registered in 0.003517 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Mono: successfully reloaded assembly
-- Completed reload, in  1.425 seconds
+- Completed reload, in  1.478 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1425ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (1478ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (197ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (94ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (96ms)
 				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -74,36 +74,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003649 seconds.
+Registered in 0.004050 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.405 seconds
+- Completed reload, in  1.303 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2406ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (1304ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (2161ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (333ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1598ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (457ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (1417ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -111,14 +111,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.6 MB.
 System memory in use after: 81.6 MB.
 
 Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 2370.
-Total: 6.707300 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.048200 ms MarkObjects: 6.337400 ms  DeleteObjects: 0.103400 ms)
+Total: 7.632100 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.047600 ms MarkObjects: 7.239700 ms  DeleteObjects: 0.110500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,56 +132,168 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.011107 seconds 
+  Import took 0.014714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.335956 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(a9ce5d5ca3acadd49b19a5efb5b98513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(a9ce5d5ca3acadd49b19a5efb5b98513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccaed24feb90b3a7a5c5cb5b5950b0a') in 0.008799 seconds 
+  Import took 0.012501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.835063 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(767e475feef99684bb5307e58de284ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(767e475feef99684bb5307e58de284ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651950e3b0095ed447ffc496e6eebf3f') in 0.008325 seconds 
+  Import took 0.011957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.267585 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(81736457cc38c5b418124ec2409b5471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(81736457cc38c5b418124ec2409b5471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24354bbe1e3d856040d17d3fbfb585a6') in 0.011745 seconds 
+  Import took 0.016145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.649835 seconds.
+  path: Assets/Models
+  artifactKey: Guid(81736457cc38c5b418124ec2409b5471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(81736457cc38c5b418124ec2409b5471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fe13c54942e779d9fa9a95261ad765') in 0.007201 seconds 
+  Import took 0.011036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.391209 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(52ab40cf74aec1a4faaee57f1c04d662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(52ab40cf74aec1a4faaee57f1c04d662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bca55b16a5735b71d5c6f7fefaf103') in 0.006830 seconds 
+  Import took 0.009921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.270283 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(25594adb51ecd39489b94432767ca59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(25594adb51ecd39489b94432767ca59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9158a7bac84482827a800bba9b3918f5') in 0.007426 seconds 
+  Import took 0.010726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.203034 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(270cc1a77bee01546bbcd9480b18a416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(270cc1a77bee01546bbcd9480b18a416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a40fe236402f8c26038dc1420410ec0') in 0.006303 seconds 
+  Import took 0.009572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.096607 seconds.
+  path: Assets/Scenes/Main.unity
   artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4ae887735739520cb42b524079287b') in 0.021676 seconds 
-  Import took 0.025012 seconds .
+Start importing Assets/Scenes/Main.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb01249f1cb992062f1b7eb9164b5d77') in 0.015574 seconds 
+  Import took 0.018928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.847649 seconds.
+  path: Assets/Models/Bobble Wars Marine texture.psd
+  artifactKey: Guid(a135b23c9d9fdab4e81a4b308646e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bobble Wars Marine texture.psd using Guid(a135b23c9d9fdab4e81a4b308646e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21472d02fa4d237d38914b37d0c5395') in 0.062173 seconds 
+  Import took 0.065743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Models/BobbleMarine-Body.fbx
+  artifactKey: Guid(ef1637236a8a4f44ba0523cf90f33566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleMarine-Body.fbx using Guid(ef1637236a8a4f44ba0523cf90f33566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e97c09c4c03ff40568d4ec17171615') in 0.438895 seconds 
+  Import took 0.442839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/BobbleMarine-Head.fbx
+  artifactKey: Guid(58622ce61fcfb8140b9a541a6a545efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleMarine-Head.fbx using Guid(58622ce61fcfb8140b9a541a6a545efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf35ad20d1df90a6e19779b3385e2ce0') in 0.062656 seconds 
+  Import took 0.065837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Models/Bobble Wars Marine texture.psd
+  artifactKey: Guid(a135b23c9d9fdab4e81a4b308646e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bobble Wars Marine texture.psd using Guid(a135b23c9d9fdab4e81a4b308646e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21472d02fa4d237d38914b37d0c5395') in 0.006738 seconds 
+  Import took 0.009960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.252211 seconds.
+  path: Assets/Models/BobbleMarine-Body.fbx
+  artifactKey: Guid(ef1637236a8a4f44ba0523cf90f33566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleMarine-Body.fbx using Guid(ef1637236a8a4f44ba0523cf90f33566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c352a4fda8b89e678f3e1d1db8d0a5') in 0.140099 seconds 
+  Import took 0.144340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Models/BobbleMarine-Head.fbx
+  artifactKey: Guid(58622ce61fcfb8140b9a541a6a545efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleMarine-Head.fbx using Guid(58622ce61fcfb8140b9a541a6a545efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7251008dbc3c39e55e329b144ee50825') in 0.076840 seconds 
+  Import took 0.080950 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003977 seconds.
+Registered in 0.004014 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.704 seconds
+- Completed reload, in  1.194 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1705ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1195ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1489ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (901ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (419ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (741ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1958 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.4 MB.
-System memory in use after: 81.5 MB.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
 
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2372.
-Total: 6.859400 ms (FindLiveObjects: 0.271300 ms CreateObjectMapping: 0.067900 ms MarkObjects: 6.485500 ms  DeleteObjects: 0.033400 ms)
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2419.
+Total: 7.007500 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.051500 ms MarkObjects: 6.687100 ms  DeleteObjects: 0.040900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -193,4 +305,684 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286.338266 seconds.
+  path: Assets/Models/BobbleEnemy-Head.fbx
+  artifactKey: Guid(c62bb7c342d064be783edcee0d6a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleEnemy-Head.fbx using Guid(c62bb7c342d064be783edcee0d6a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eb852c9ad0e14d48194789ed46b388') in 0.084699 seconds 
+  Import took 0.088047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Models/Pickup.fbx
+  artifactKey: Guid(596f17f5f6d5a433b9d367360ec103a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pickup.fbx using Guid(596f17f5f6d5a433b9d367360ec103a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a151ea6059c4904d66c9af4eca8dcfc1') in 0.258300 seconds 
+  Import took 0.261379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Models/BobbleEnemy-Head.fbx
+  artifactKey: Guid(c62bb7c342d064be783edcee0d6a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleEnemy-Head.fbx using Guid(c62bb7c342d064be783edcee0d6a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eb852c9ad0e14d48194789ed46b388') in 0.020388 seconds 
+  Import took 0.023621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.653307 seconds.
+  path: Assets/Models/BobbleEnemy-Body.blend
+  artifactKey: Guid(7df968ec880694920bcb46964b9d62a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleEnemy-Body.blend using Guid(7df968ec880694920bcb46964b9d62a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3981d21d481f35dbd508277fd4cf4a31') in 0.011198 seconds 
+  Import took 0.014540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.817260 seconds.
+  path: Assets/Prefabs/AlienDeathParticles.prefab
+  artifactKey: Guid(81ee2dd3cdadcf64a8e5b8815810c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienDeathParticles.prefab using Guid(81ee2dd3cdadcf64a8e5b8815810c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfee508f2385d3a432a36cefbadd29ba') in 0.050217 seconds 
+  Import took 0.053767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Pickup.prefab
+  artifactKey: Guid(941d6224549424c91b1cf112b44ec0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pickup.prefab using Guid(941d6224549424c91b1cf112b44ec0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96f6275cdb0920c94492461330ef959') in 0.189004 seconds 
+  Import took 0.192833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefabs/MarineDeathParticles.prefab
+  artifactKey: Guid(166b5f35267b23d418446eb9650c0efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MarineDeathParticles.prefab using Guid(166b5f35267b23d418446eb9650c0efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1353f2b814585b98aac105a90259461') in 0.016484 seconds 
+  Import took 0.019919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.822140 seconds.
+  path: Assets/Sounds/bw_alien_death.ogg
+  artifactKey: Guid(8f252cb39a2a2da44aefd3d09599af53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_alien_death.ogg using Guid(8f252cb39a2a2da44aefd3d09599af53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441ea0419d861fb1ea556e355bc978a2') in 0.066238 seconds 
+  Import took 0.069710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sounds/bw_bg.ogg
+  artifactKey: Guid(c913da143d1341c4a8ca22e0717e79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_bg.ogg using Guid(c913da143d1341c4a8ca22e0717e79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2b650b86eae4a36329856a374b8e0c') in 0.015719 seconds 
+  Import took 0.019026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Sounds/bw_marine_death.ogg
+  artifactKey: Guid(d9f613ad6fc2e5648b734dade33baf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_marine_death.ogg using Guid(d9f613ad6fc2e5648b734dade33baf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855ff9dd156efa68329e9c08c253ee5f') in 0.017951 seconds 
+  Import took 0.022050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sounds/bw_triple_shoot.ogg
+  artifactKey: Guid(8e48e9181723f0c4c9c881d2bfc0fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_triple_shoot.ogg using Guid(8e48e9181723f0c4c9c881d2bfc0fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b601eb6103185a5436d1c0fd117a80') in 0.020771 seconds 
+  Import took 0.025004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sounds/bw_victory.ogg
+  artifactKey: Guid(b4d3cb20c25bae54e999c556d56876b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_victory.ogg using Guid(b4d3cb20c25bae54e999c556d56876b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8282b869cf792aaa1b5192bd7cf4874') in 0.015403 seconds 
+  Import took 0.019737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sounds/bw_shoot.ogg
+  artifactKey: Guid(5601eca1dfa29004bb6fa92fb60c7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_shoot.ogg using Guid(5601eca1dfa29004bb6fa92fb60c7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0882bfa54b2437813ea18a22e96d15a7') in 0.015225 seconds 
+  Import took 0.019082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sounds/bw_elevator.ogg
+  artifactKey: Guid(2f387366f0fba044487680bf853f5f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_elevator.ogg using Guid(2f387366f0fba044487680bf853f5f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e46e1dbe44e67232d732851cae732d3') in 0.012653 seconds 
+  Import took 0.016132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sounds/bw_marine_hurt.ogg
+  artifactKey: Guid(a16b9017a7a3b744fbd8ab26d0a816c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_marine_hurt.ogg using Guid(a16b9017a7a3b744fbd8ab26d0a816c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4f9c59b07d3d0852f262625fbbd6a2') in 0.012699 seconds 
+  Import took 0.016337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Sounds/bw_powerup_appear.ogg
+  artifactKey: Guid(00f25f135ee488c4591479876ca3f10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_powerup_appear.ogg using Guid(00f25f135ee488c4591479876ca3f10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565e8ae4d7a39005ac9f77c7e08d90ff') in 0.013350 seconds 
+  Import took 0.017169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sounds/bw_powerup_pickup.ogg
+  artifactKey: Guid(55bc10006917fbe46a89f70a93cd4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_powerup_pickup.ogg using Guid(55bc10006917fbe46a89f70a93cd4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19011ca981091485075159b4cd16a66c') in 0.014859 seconds 
+  Import took 0.018059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sounds/bw_powerup_appear.ogg
+  artifactKey: Guid(00f25f135ee488c4591479876ca3f10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_powerup_appear.ogg using Guid(00f25f135ee488c4591479876ca3f10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565e8ae4d7a39005ac9f77c7e08d90ff') in 0.009338 seconds 
+  Import took 0.013019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sounds/bw_powerup_pickup.ogg
+  artifactKey: Guid(55bc10006917fbe46a89f70a93cd4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/bw_powerup_pickup.ogg using Guid(55bc10006917fbe46a89f70a93cd4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19011ca981091485075159b4cd16a66c') in 0.008083 seconds 
+  Import took 0.011353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.882516 seconds.
+  path: Assets/Models/Materials/BobbleArena-Main_Texture.mat
+  artifactKey: Guid(9c32c6e136d3b404e848fbbb01c14f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleArena-Main_Texture.mat using Guid(9c32c6e136d3b404e848fbbb01c14f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6c3efa3db7db02624e9cb6beeb6481') in 0.028678 seconds 
+  Import took 0.032472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Models/Materials/Main_Material__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(555920f7ad7a34fdf84e852febb03f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Main_Material__Bobble_Wars_Marine_texture_psd.mat using Guid(555920f7ad7a34fdf84e852febb03f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805ed5f1610ffc9081ae0ffa96fb20a4') in 0.017182 seconds 
+  Import took 0.020860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Models/Materials/Material.mat
+  artifactKey: Guid(c3fcc1592ce574ca1bc3ab68dc57efed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Material.mat using Guid(c3fcc1592ce574ca1bc3ab68dc57efed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5f0d1f7a2ab8e10a504fb1df324490') in 0.014134 seconds 
+  Import took 0.017514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models/Materials/BobbleArena-Material.mat
+  artifactKey: Guid(b2b41f43ac77c4ba6ab290cc5d77c8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleArena-Material.mat using Guid(b2b41f43ac77c4ba6ab290cc5d77c8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad3dbc1fa22a7f79d3d3be605641b00') in 0.014186 seconds 
+  Import took 0.018126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Models/Materials/BobbleEnemy-Head-Main Texture.mat
+  artifactKey: Guid(d00558141d68a4039be132c31ed29a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleEnemy-Head-Main Texture.mat using Guid(d00558141d68a4039be132c31ed29a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45bbc0a99ffe8fb1c34b650198237c5') in 0.016653 seconds 
+  Import took 0.020689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models/Materials/Main_Texture.mat
+  artifactKey: Guid(768b85136f52344269c9d3369fd72e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Main_Texture.mat using Guid(768b85136f52344269c9d3369fd72e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f0e02fca43a5eea80000a4dfdf520d') in 0.039778 seconds 
+  Import took 0.043204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Models/Materials/BobbleArena-Main_Texture__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(e8cf5b3d504b04a09a3d13bd4720c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleArena-Main_Texture__Bobble_Wars_Marine_texture_psd.mat using Guid(e8cf5b3d504b04a09a3d13bd4720c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ebfcab8783e2514dbac69595fc68cd') in 0.014338 seconds 
+  Import took 0.017826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Models/Materials/BobbleEnemy-Body-Main_Texture.mat
+  artifactKey: Guid(a574e12c200cf41d188d9b8639bec4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleEnemy-Body-Main_Texture.mat using Guid(a574e12c200cf41d188d9b8639bec4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f847acf4385d3cbfe25d6a6baedb1aa1') in 0.017213 seconds 
+  Import took 0.020874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Models/Materials/Main_Material.mat
+  artifactKey: Guid(2c41ffd075e1746d2904843f43d411c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Main_Material.mat using Guid(2c41ffd075e1746d2904843f43d411c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e6b02bc645b8bfc6675883b60213b1') in 0.017006 seconds 
+  Import took 0.020356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Models/Materials/glow.mat
+  artifactKey: Guid(800792df19e4946a7b7f1436a13b960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/glow.mat using Guid(800792df19e4946a7b7f1436a13b960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f1f47b753ad12ec3ae8435ca338de1') in 0.016733 seconds 
+  Import took 0.020582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Models/Materials/BobbleEnemy-Body-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat
+  artifactKey: Guid(cb2868aa28fed48a180aa6b2639100e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleEnemy-Body-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat using Guid(cb2868aa28fed48a180aa6b2639100e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3587f4c3c51dc34ec77e6b73befc3d7e') in 0.015698 seconds 
+  Import took 0.020350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Models/Materials/BobbleArena-unnamed.mat
+  artifactKey: Guid(0176fe6449d0241a780f287f93d27fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleArena-unnamed.mat using Guid(0176fe6449d0241a780f287f93d27fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4842aa2d4ad33edafee8d63e97ff22f2') in 0.013983 seconds 
+  Import took 0.017272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008910 seconds.
+  path: Assets/Models/Materials/BobbleEnemy-Body-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat
+  artifactKey: Guid(cb2868aa28fed48a180aa6b2639100e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/BobbleEnemy-Body-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat using Guid(cb2868aa28fed48a180aa6b2639100e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3587f4c3c51dc34ec77e6b73befc3d7e') in 0.013677 seconds 
+  Import took 0.018646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.763225 seconds.
+  path: Assets/Materials/Import/Bobble Wars Enemy texture 1.mat
+  artifactKey: Guid(997998f6f692241fe99d3882821e35bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Enemy texture 1.mat using Guid(997998f6f692241fe99d3882821e35bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44264d89a8d4661f2e1143b946dd7819') in 0.020110 seconds 
+  Import took 0.023955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Materials/Import/Main_Material__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(a5d972d8ba99c45aa8ac1d1f81cffe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Main_Material__Bobble_Wars_Marine_texture_psd.mat using Guid(a5d972d8ba99c45aa8ac1d1f81cffe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b35e72abd2446a2228dfb4d6639b93') in 0.021073 seconds 
+  Import took 0.024452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Materials/Import/BobbleArena-Column-Main_Material.mat
+  artifactKey: Guid(67093b36b8fd241d2bcdc6c4a3cdf6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-Column-Main_Material.mat using Guid(67093b36b8fd241d2bcdc6c4a3cdf6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c0e012a55106ad7dd9769a29f05556') in 0.015182 seconds 
+  Import took 0.018549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Import/Main_Texture.mat
+  artifactKey: Guid(2d775c95be95a40b1a60f7a63caa2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Main_Texture.mat using Guid(2d775c95be95a40b1a60f7a63caa2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2ad454fcfdab739fa18a9e01a3a552') in 0.013125 seconds 
+  Import took 0.016738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Materials/Import/glow.mat
+  artifactKey: Guid(c9d936dc698ac4a3394a70531b0403e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/glow.mat using Guid(c9d936dc698ac4a3394a70531b0403e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6456a1213f1472c908a1a5e698982758') in 0.015001 seconds 
+  Import took 0.019627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Head_v3-Main Texture.mat
+  artifactKey: Guid(a87699127fba94dddb6481522687dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Head_v3-Main Texture.mat using Guid(a87699127fba94dddb6481522687dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0199a37d81695465749a399913eab2b7') in 0.015717 seconds 
+  Import took 0.019243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Materials/Import/No Name.mat
+  artifactKey: Guid(f668b1d02ea604d2686ff930fe8963e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/No Name.mat using Guid(f668b1d02ea604d2686ff930fe8963e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc53a56db3d8f0e27f2ee24fd6e4fd59') in 0.020439 seconds 
+  Import took 0.024561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Materials/Import/Main_Texture__Bobble_Wars_Enemy_texture_psd.mat
+  artifactKey: Guid(fb09f4a186a104564a47e1ee4c9c60ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Main_Texture__Bobble_Wars_Enemy_texture_psd.mat using Guid(fb09f4a186a104564a47e1ee4c9c60ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1aef38809f77732c85bba840e5b7da') in 0.016798 seconds 
+  Import took 0.020728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Materials/Import/BobbleArena2-Material.mat
+  artifactKey: Guid(097709bcee4f74eb2888820c0d349b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena2-Material.mat using Guid(097709bcee4f74eb2888820c0d349b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444d77e09a6e2a07aa9b664af00da94f') in 0.016424 seconds 
+  Import took 0.019734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 11.mat
+  artifactKey: Guid(6054ff1ae8df24c0eb3d7b00c57318ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 11.mat using Guid(6054ff1ae8df24c0eb3d7b00c57318ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0255bc897198dfa976675971290ba7f7') in 0.014979 seconds 
+  Import took 0.018636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Body3-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat
+  artifactKey: Guid(5d39e27b183f94849b4d1f3fbc6d1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Body3-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat using Guid(5d39e27b183f94849b4d1f3fbc6d1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b1432791c55a0c46bc8b32c4fd1afa') in 0.014364 seconds 
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Body-Main_Texture.mat
+  artifactKey: Guid(104fddd618f674aeb8ef57d07be6b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Body-Main_Texture.mat using Guid(104fddd618f674aeb8ef57d07be6b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb31f3e8d0271cbe025b572c4164063a') in 0.015838 seconds 
+  Import took 0.020612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Import/Main_Material.mat
+  artifactKey: Guid(61623e562095b48bc931b1d62ed5efbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Main_Material.mat using Guid(61623e562095b48bc931b1d62ed5efbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd4906f8b854ae4682c278a28edfcb0') in 0.016163 seconds 
+  Import took 0.019721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Materials/Import/BobbleArena-Material.mat
+  artifactKey: Guid(00588df76d7ef4d21a9602d137b5a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-Material.mat using Guid(00588df76d7ef4d21a9602d137b5a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af800ff7edc83439fba8f0c8a13794d0') in 0.012815 seconds 
+  Import took 0.016600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Materials/Import/Main_Texture__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(1124b61db43e34233a7ccd3b0fb9a53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Main_Texture__Bobble_Wars_Marine_texture_psd.mat using Guid(1124b61db43e34233a7ccd3b0fb9a53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f497bf946a743bda38ebb9ce2bb6d8d') in 0.013454 seconds 
+  Import took 0.017550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Materials/Import/Bobble Wars Enemy texture.mat
+  artifactKey: Guid(6ba8616884eb54745bd33315e7a91ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Enemy texture.mat using Guid(6ba8616884eb54745bd33315e7a91ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c3351a23c2de4be468d19896df97ac') in 0.014356 seconds 
+  Import took 0.018457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 6.mat
+  artifactKey: Guid(83ea1bb525d7244e98e6e3f4da87c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 6.mat using Guid(83ea1bb525d7244e98e6e3f4da87c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd3cdadd777aabd99982e3e03dece77') in 0.014478 seconds 
+  Import took 0.019127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 8.mat
+  artifactKey: Guid(ab2ae8b93cf3b497982e598002c35d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 8.mat using Guid(ab2ae8b93cf3b497982e598002c35d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b838edf7a28724e72c0ace19dde82d5') in 0.014485 seconds 
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Materials/Import/BobbleArena2-Main_Texture__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(7fdda9a8c243e4934997cd94fa7e59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena2-Main_Texture__Bobble_Wars_Marine_texture_psd.mat using Guid(7fdda9a8c243e4934997cd94fa7e59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8104ea44b18d0561c010e115fe2c5c') in 0.016914 seconds 
+  Import took 0.020676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Head_v2-Main Texture.mat
+  artifactKey: Guid(7fc73abdcaa8b4f4ba6d4ddb2b219a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Head_v2-Main Texture.mat using Guid(7fc73abdcaa8b4f4ba6d4ddb2b219a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a4e363adb6684b32a9cccab195fe21') in 0.015342 seconds 
+  Import took 0.019041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Materials/Import/Material.mat
+  artifactKey: Guid(68f4c7f11e1374e7f8b76c8580152b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Material.mat using Guid(68f4c7f11e1374e7f8b76c8580152b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd01a0266bac13f066bed939cc5beb0f') in 0.010067 seconds 
+  Import took 0.014457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Materials/Import/Main Texture.mat
+  artifactKey: Guid(4621ff5621e954011be385753b165479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Main Texture.mat using Guid(4621ff5621e954011be385753b165479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6275a413aeaf6c62f9377b39c138fb76') in 0.015201 seconds 
+  Import took 0.018586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 1.mat
+  artifactKey: Guid(4cbec73ed3a914660a06a95ba8194070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 1.mat using Guid(4cbec73ed3a914660a06a95ba8194070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e503372030e7ffc0a96b931e810277') in 0.015662 seconds 
+  Import took 0.020546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 2.mat
+  artifactKey: Guid(84744ef95e5d94195b26a56feafcbeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 2.mat using Guid(84744ef95e5d94195b26a56feafcbeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad0bda38d40346b60309beda3517c16') in 0.014831 seconds 
+  Import took 0.019307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Body3-Main_Texture.mat
+  artifactKey: Guid(40347893886c446f9b000a7cfc0dfec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Body3-Main_Texture.mat using Guid(40347893886c446f9b000a7cfc0dfec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b1358ccae5b3707fa34f5a5e4ca31e') in 0.016049 seconds 
+  Import took 0.020241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 10.mat
+  artifactKey: Guid(0d79c85e355fd4eff9a57a053d908cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 10.mat using Guid(0d79c85e355fd4eff9a57a053d908cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1908e358d1be4bd43a639acb7e22d8d7') in 0.015926 seconds 
+  Import took 0.020250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Materials/Import/BobbleArena2-unnamed.mat
+  artifactKey: Guid(b9f9c5bc889924ed6b5fe55f44df51d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena2-unnamed.mat using Guid(b9f9c5bc889924ed6b5fe55f44df51d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d84d8451ee868fa070883bb59194b9') in 0.015180 seconds 
+  Import took 0.019617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/Import/BobbleArena-Main Texture.mat
+  artifactKey: Guid(578c991fd886f4f9a95eb8a6c2f43608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-Main Texture.mat using Guid(578c991fd886f4f9a95eb8a6c2f43608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fbe15c1403f328319816a6a4b13be8') in 0.016110 seconds 
+  Import took 0.020681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Materials/Import/BobbleArena2-Main_Texture.mat
+  artifactKey: Guid(e7c4dc54991a24250817532769793663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena2-Main_Texture.mat using Guid(e7c4dc54991a24250817532769793663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f1ac0895d97ced712ff94b4490584f') in 0.015960 seconds 
+  Import took 0.020295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Body-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat
+  artifactKey: Guid(a78b581e5c19b46c3b97f4fd0296f1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Body-Main_Texture__Bobble_Wars_Enemy_texture_psd.mat using Guid(a78b581e5c19b46c3b97f4fd0296f1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282d128b5ec0dd3bd1876e5f8b5a6b6b') in 0.014911 seconds 
+  Import took 0.019100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Head-Main Texture.mat
+  artifactKey: Guid(0818f6e34e10b4a5e87486626ab6d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Head-Main Texture.mat using Guid(0818f6e34e10b4a5e87486626ab6d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55906d0e5d7dfae9b04f18d072f9870') in 0.014039 seconds 
+  Import took 0.017344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Materials/Import/Projectile Particle.mat
+  artifactKey: Guid(9019c157c3b7c4200beed4d738d119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Projectile Particle.mat using Guid(9019c157c3b7c4200beed4d738d119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c1c9c99e88c02302c6a10807b9200b') in 0.014297 seconds 
+  Import took 0.017745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 7.mat
+  artifactKey: Guid(092aa57f97486468ea08171b8ae5efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 7.mat using Guid(092aa57f97486468ea08171b8ae5efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bccf7a47a5a1b18fad2484f8fd95cd') in 0.015157 seconds 
+  Import took 0.018659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Materials/Import/BobbleArena-Column-Main_Material__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(c04633bb19f6443ad9f1af0f3443925e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-Column-Main_Material__Bobble_Wars_Marine_texture_psd.mat using Guid(c04633bb19f6443ad9f1af0f3443925e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd5a0b13bd7b5b6462d7ba462405607') in 0.016129 seconds 
+  Import took 0.019953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Materials/Import/BobbleArena-No Name.mat
+  artifactKey: Guid(789470b3529da445d8a55d2ab9cc26f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-No Name.mat using Guid(789470b3529da445d8a55d2ab9cc26f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3914c0eb72f542058597fd6be15871') in 0.014609 seconds 
+  Import took 0.018118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Materials/Import/BobbleEnemy-Body-Main Texture.mat
+  artifactKey: Guid(6a59ff75fddfb49fe8fd8c31b5c1ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleEnemy-Body-Main Texture.mat using Guid(6a59ff75fddfb49fe8fd8c31b5c1ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e5dc34cd99b738f34242a601ea60b2') in 0.014883 seconds 
+  Import took 0.018830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 4.mat
+  artifactKey: Guid(15c44105e03144432841c106bfc6aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 4.mat using Guid(15c44105e03144432841c106bfc6aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dfb5ae4a6fa98c3ad5fd956df5ba39') in 0.016514 seconds 
+  Import took 0.020404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 5.mat
+  artifactKey: Guid(a323b00f2c0aa4b3191e6bce6ec48265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 5.mat using Guid(a323b00f2c0aa4b3191e6bce6ec48265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0436bd7d91969ee2562a1163541e1e1') in 0.016198 seconds 
+  Import took 0.020824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Import/unnamed.mat
+  artifactKey: Guid(65be6d8a6f3f54777b363ec341027ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/unnamed.mat using Guid(65be6d8a6f3f54777b363ec341027ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824c20fafa80be21fecacbe06854b2e8') in 0.014294 seconds 
+  Import took 0.018309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 9.mat
+  artifactKey: Guid(d91b8968d8e0a4ef8a2b8fbe40b52eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 9.mat using Guid(d91b8968d8e0a4ef8a2b8fbe40b52eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53776cc9cec98ea41643d1754a47b82d') in 0.014023 seconds 
+  Import took 0.018488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Materials/Import/Projectile Material.mat
+  artifactKey: Guid(61587d58be0f644dea59ace9814dd1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Projectile Material.mat using Guid(61587d58be0f644dea59ace9814dd1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd782ae4f2da88deec72afeb7555d6303') in 0.013948 seconds 
+  Import took 0.017908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 3.mat
+  artifactKey: Guid(8b599b919d555417d9715e5077fbb4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 3.mat using Guid(8b599b919d555417d9715e5077fbb4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfc5cecd989bfba2c63e04dd4f901ae') in 0.015240 seconds 
+  Import took 0.019703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003853 seconds.
+  path: Assets/Materials/Import/Projectile Material.mat
+  artifactKey: Guid(61587d58be0f644dea59ace9814dd1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Projectile Material.mat using Guid(61587d58be0f644dea59ace9814dd1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd782ae4f2da88deec72afeb7555d6303') in 0.009154 seconds 
+  Import took 0.013226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.058837 seconds.
+  path: Assets/Materials/Models
+  artifactKey: Guid(1989d975edab2441580c755665b4b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Models using Guid(1989d975edab2441580c755665b4b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673f3e934203e322fd050505a7a2e228') in 0.006345 seconds 
+  Import took 0.009599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.746351 seconds.
+  path: Assets/Models/BobbleArena.blend
+  artifactKey: Guid(7f78b096b427d419f9918e4ae4fc4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena.blend using Guid(7f78b096b427d419f9918e4ae4fc4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0013a5977b92b94fc86066fea71987c') in 0.008645 seconds 
+  Import took 0.012152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.844689 seconds.
+  path: Assets/Models/BobbleEnemy-Body.blend
+  artifactKey: Guid(7df968ec880694920bcb46964b9d62a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleEnemy-Body.blend using Guid(7df968ec880694920bcb46964b9d62a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81fc6371b2e826f135a85f65c0949d6') in 0.354765 seconds 
+  Import took 0.358851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.957319 seconds.
+  path: Assets/Models/BobbleArena.blend
+  artifactKey: Guid(7f78b096b427d419f9918e4ae4fc4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena.blend using Guid(7f78b096b427d419f9918e4ae4fc4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51163efa8ba6ece7912360b8a6578b1d') in 0.189302 seconds 
+  Import took 0.193106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399935 seconds.
+  path: Assets/Models/BobbleArena-Column.blend
+  artifactKey: Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena-Column.blend using Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b4c325491b15af0165cb14f34fba9f') in 0.008123 seconds 
+  Import took 0.012156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.924397 seconds.
+  path: Assets/Models/BobbleArena-Column.blend
+  artifactKey: Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena-Column.blend using Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e717c807cc50e6c2c81431a4f4f19b3') in 0.043529 seconds 
+  Import took 0.047431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007131 seconds.
+  path: Assets/Models/BobbleArena-Column.blend
+  artifactKey: Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena-Column.blend using Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e717c807cc50e6c2c81431a4f4f19b3') in 0.042001 seconds 
+  Import took 0.046023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.975649 seconds.
+  path: Assets/Models/BobbleArena-Collider.blend
+  artifactKey: Guid(93576df0457ab4d6e83debcd94a50b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena-Collider.blend using Guid(93576df0457ab4d6e83debcd94a50b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9628779e653880915d55e322e28418') in 0.008238 seconds 
+  Import took 0.011569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.353212 seconds.
+  path: Assets/Models/BobbleArena-Collider.blend
+  artifactKey: Guid(93576df0457ab4d6e83debcd94a50b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena-Collider.blend using Guid(93576df0457ab4d6e83debcd94a50b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a830116abd3fef62d7ee9ad69cda3104') in 0.021225 seconds 
+  Import took 0.025104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006119 seconds.
+  path: Assets/Models/BobbleArena-Collider.blend
+  artifactKey: Guid(93576df0457ab4d6e83debcd94a50b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena-Collider.blend using Guid(93576df0457ab4d6e83debcd94a50b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a830116abd3fef62d7ee9ad69cda3104') in 0.018576 seconds 
+  Import took 0.022062 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
